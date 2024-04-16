@@ -1,0 +1,1 @@
+# ManageMeals Firefox extension
