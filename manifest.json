@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "ManageMeals",
+  "version": "1.0",
+  "description": "ManageMeals is a simple, easy-to-use platform to manage recipes. Import recipes by URL and organize them without any ads or unnecessary text.",
+  "homepage_url": "https://managemeals.com/",
+  "icons": {
+    "48": "icons/mmeals48.png",
+    "96": "icons/mmeals96.png"
+  },
+  "permissions": ["activeTab", "webRequest", "https://api.managemeals.com/*", "cookies"],
+  "browser_action": {
+    "default_icon": "icons/mmeals48.png",
+    "default_title": "ManageMeals",
+    "default_popup": "popup/mmeals.html"
+  }
+}
